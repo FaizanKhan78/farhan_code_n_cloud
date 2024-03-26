@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 500px;
+}
+
+.gmap_iframe {
+  height: 500px !important;
+}
+
+/* Define scrollbar track */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  /* Thickness of the scrollbar */
+}
+
+/* Define scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  /* Color of the scrollbar thumb */
+  border-radius: 0.25rem;
+  /* Radius for rounded corners */
+}
+
+/* Define scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Background color of the scrollbar track */
+  border-radius: 0.25rem;
+  /* Radius for rounded corners */
+}
